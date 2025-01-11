@@ -6,7 +6,7 @@ col1, col2 = st.columns([3,2]) # seperating screen grid
 
 financial_data_df = pd.DataFrame({
         "Measure": ["Company Name", "Stock Symbol", "Revenue", "Net Income", "EPS"],
-        "Value": ["NVIDIA", "NVDA", "$35.1 billion", "$63.07 billion", "$2.53"]
+        "Value": ["", "", "", "", ""]
     })
 
 with col1:
